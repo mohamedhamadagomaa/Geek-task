@@ -1,6 +1,6 @@
 export default function Avatar() {
   return (
-    <div className="avatar-hover">
+    <div className="avatar">
       <svg
         width="39"
         height="41"
@@ -80,10 +80,10 @@ export default function Avatar() {
           fill="#3DBC93"
         />
       </svg>
-      <div className="text-avatar" id="text-avatar">
-        <h3>moni roi</h3>
-        <p>Biginner</p>
-      </div>
+     <div className="avatar-text" >
+     <h3>moni roi</h3>
+      <p>Biginner</p>
+     </div>
     </div>
   );
 }

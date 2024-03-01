@@ -13,7 +13,7 @@ export default function Aside({ asideOpen }) {
       <div>
         <Icons />
       </div>
-      <div className="avatar">
+      <div>
         <Avatar />
       </div>
     </div>
