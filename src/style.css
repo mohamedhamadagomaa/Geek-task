@@ -35,15 +35,15 @@ svg {
   display: none;
   z-index: 5000;
   cursor: pointer;
-  background-color: white;
+  background-color: #ffffffbd;
   border-radius: 70%;
   width: 50px;
   height: 50px;
   text-align: center;
-  line-height: 50px;
+  line-height: 55px;
   font-weight: bold;
   /* top: 50%; */
-  left: 35%;
+  left: 92%;
   transform: translate(-50%, 0);
 }
 .aside-btn:hover .aside {
@@ -298,9 +298,10 @@ svg {
   /* right: 23%; */
   transform: translate(-50%, 0);
   /* display: none; */
-  background-color: white;
-  line-height: 50px;
-  border-radius: 70%;
+  background-color: #ffffffbd;
+  /* color: #53acff; */
+  line-height: 60px;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -535,6 +536,9 @@ svg {
 }
 
 @media (max-width: 1100px) {
+  .header h1 {
+    left: 84px;
+  }
   .aside {
     transform: translateX(-100%);
   }
