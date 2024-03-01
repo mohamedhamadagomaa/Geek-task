@@ -1,9 +1,9 @@
 import Avatar from "./avatar-circle";
 import Icons from "./icons";
 
-export default function Aside() {
+export default function Aside({ asideOpen }) {
   return (
-    <div className="aside" id="aside">
+    <div className={`aside ${asideOpen ? "open" : ""}`}>
       <img
         className="image"
         src={require("./Assets/street suite logo-04.png")}

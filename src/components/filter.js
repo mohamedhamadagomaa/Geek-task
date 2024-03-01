@@ -1,14 +1,19 @@
 import FilterApplied from "./filter-applies";
 import Stock from "./filter-stock";
 import ApplyBtn from "./apply-btn";
-export default function Filter() {  
+import { useState } from "react"
+export default function Filter() {
+  const[filterOpen,setFilter] = useState(false);
+
   return (
-    <div className="filter">
+    <div className={`filter ${filterOpen ? "open" : ""}`}>
       <h1>Filters</h1>
-      <FilterApplied/>
-      <Stock/>
-      <ApplyBtn/>
-      
+      <div className="filter-btn" onClick={() => setFilter(!filterOpen)}>
+        Filter
+      </div>
+      <FilterApplied />
+      <Stock />
+      <ApplyBtn />
     </div>
   );
 }
