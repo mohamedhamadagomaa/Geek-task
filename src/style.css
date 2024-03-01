@@ -31,7 +31,7 @@ svg {
   transform: translateX(0) !important;
 }
 .aside-btn {
-  position: relative;
+  position: fixed;
   display: none;
   z-index: 5000;
   cursor: pointer;
@@ -43,7 +43,7 @@ svg {
   line-height: 55px;
   font-weight: bold;
   /* top: 50%; */
-  left: 92%;
+  left: 96%;
   transform: translate(-50%, 0);
 }
 .aside-btn:hover .aside {
@@ -602,8 +602,8 @@ svg {
   }
   .header .noti-icon {
     right: 28%;
-    left: 85%;
-    top: 67px;
+    left: 90%;
+    top: 62px;
   }
 }
 @media (max-width: 860px) {
@@ -643,6 +643,7 @@ svg {
   .aside-btn {
     top: 0;
     position: fixed;
+    left: 93%;
   }
   .search-box {
     left: 50%;
